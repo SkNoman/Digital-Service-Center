@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.backbenchers">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/sp1"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/sp1"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Backbenchers">
+        <activity
+            android:name=".UserOrders"
+            android:exported="true" />
+        <activity
+            android:name=".UserRatings"
+            android:exported="true" />
+        <activity
+            android:name=".UserFeedbacks"
+            android:exported="true" />
+        <activity
+            android:name=".Users"
+            android:exported="true" />
+        <activity
+            android:name=".LoginAdmin"
+            android:exported="true" />
+        <activity
+            android:name=".AdminPanel"
+            android:exported="true" />
+        <activity
+            android:name=".Order_Conformation"
+            android:exported="true" />
+        <activity
+            android:name=".CarRental"
+            android:exported="true" />
+        <activity
+            android:name=".Construction"
+            android:exported="true" />
+        <activity
+            android:name=".RateUs"
+            android:exported="true" />
+        <activity
+            android:name=".Feedback"
+            android:exported="true" />
+        <activity
+            android:name=".ForgetPassword"
+            android:exported="true" />
+        <activity android:name=".Test_layout" />
+        <activity android:name=".DeleteAllOrderHistroy" />
+        <activity android:name=".UserOrderDetails" />
+        <activity android:name=".OrderCook" />
+        <activity android:name=".Automation" />
+        <activity android:name=".Medical" />
+        <activity android:name=".Tailor" />
+        <activity android:name=".Clean" />
+        <activity android:name=".Manpower" />
+        <activity android:name=".Aircondition" />
+        <activity android:name=".Paint" />
+        <activity android:name=".Laundry" />
+        <activity android:name=".Shift" />
+        <activity android:name=".Cook" />
+        <activity android:name=".Profile" />
+        <activity android:name=".SignUp" />
+        <activity android:name=".Login" />
+        <activity android:name=".Dashboard" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".PushNotificationService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

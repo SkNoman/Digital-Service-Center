@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable-v24/shape.xml" value="0.3494791666666667" />
+        <entry key="app/src/main/res/drawable-v24/tealButtonshape.xml" value="0.3494791666666667" />
+        <entry key="app/src/main/res/drawable/gradient_color.xml" value="0.3494791666666667" />
+        <entry key="app/src/main/res/drawable/shape2.xml" value="0.3494791666666667" />
+        <entry key="app/src/main/res/drawable/shape3.xml" value="0.3494791666666667" />
+        <entry key="app/src/main/res/layout/activity_admin_panel.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_aircondition.xml" value="0.34739583333333335" />
+        <entry key="app/src/main/res/layout/activity_automation.xml" value="0.34739583333333335" />
+        <entry key="app/src/main/res/layout/activity_car_rental.xml" value="0.346875" />
+        <entry key="app/src/main/res/layout/activity_clean.xml" value="0.34739583333333335" />
+        <entry key="app/src/main/res/layout/activity_construction.xml" value="0.346875" />
+        <entry key="app/src/main/res/layout/activity_cook.xml" value="0.34739583333333335" />
+        <entry key="app/src/main/res/layout/activity_dashboard.xml" value="0.2430806257521059" />
+        <entry key="app/src/main/res/layout/activity_email.xml" value="0.3333333333333333" />
+        <entry key="app/src/main/res/layout/activity_feedback.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/activity_forget_password.xml" value="0.3333333333333333" />
+        <entry key="app/src/main/res/layout/activity_laundry.xml" value="0.34739583333333335" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.291213768115942" />
+        <entry key="app/src/main/res/layout/activity_login_admin.xml" value="0.22083333333333333" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.27309782608695654" />
+        <entry key="app/src/main/res/layout/activity_manpower.xml" value="0.34739583333333335" />
+        <entry key="app/src/main/res/layout/activity_medical.xml" value="0.34739583333333335" />
+        <entry key="app/src/main/res/layout/activity_order_conformation.xml" value="0.22083333333333333" />
+        <entry key="app/src/main/res/layout/activity_order_cook.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_paint.xml" value="0.3333333333333333" />
+        <entry key="app/src/main/res/layout/activity_profile.xml" value="0.3333333333333333" />
+        <entry key="app/src/main/res/layout/activity_rate_us.xml" value="0.3333333333333333" />
+        <entry key="app/src/main/res/layout/activity_shift.xml" value="0.34739583333333335" />
+        <entry key="app/src/main/res/layout/activity_sign_up.xml" value="0.20416666666666666" />
+        <entry key="app/src/main/res/layout/activity_tailor.xml" value="0.34739583333333335" />
+        <entry key="app/src/main/res/layout/activity_user_order_details.xml" value="0.3333333333333333" />
+        <entry key="app/src/main/res/layout/activity_users.xml" value="0.22083333333333333" />
+        <entry key="app/src/main/res/layout/featured_card_design.xml" value="0.22083333333333333" />
+        <entry key="app/src/main/res/layout/fragment_blank.xml" value="0.3333333333333333" />
+        <entry key="app/src/main/res/layout/header.xml" value="0.3333333333333333" />
+        <entry key="app/src/main/res/layout/layoutfile.xml" value="0.3333333333333333" />
+        <entry key="app/src/main/res/layout/layoutfile2.xml" value="0.22083333333333333" />
+        <entry key="app/src/main/res/layout/layoutfile3.xml" value="0.22083333333333333" />
+        <entry key="app/src/main/res/layout/list.xml" value="0.3333333333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_13" default="true" project-jdk-name="13" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

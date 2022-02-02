@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "815777381927",
+    "project_id": "backbenchers-5c638",
+    "storage_bucket": "backbenchers-5c638.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:815777381927:android:a094badb04a1ef9db79802",
+        "android_client_info": {
+          "package_name": "com.example.backbenchers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "815777381927-rp1g7hetece9mmaji5cdd4pg071njg6o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqVVQCjkrjt9sEL65qSdFN4l4fhJW3a40"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "815777381927-rp1g7hetece9mmaji5cdd4pg071njg6o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

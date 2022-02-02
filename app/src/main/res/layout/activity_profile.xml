@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F1ECEC"
+    android:padding="15dp"
+    tools:context=".Profile"
+
+    >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/shape2"
+    android:padding="20dp"
+    >
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/sp1"
+        android:layout_marginBottom="30dp"
+        />
+
+    <LinearLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         android:layout_gravity="left">
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textSize="24sp"
+
+             android:textColor="@color/black"
+             android:fontFamily="@font/aclonica"
+             android:text="Name:"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aclonica"
+        android:text="User"
+        android:id="@+id/user_name"
+        android:textSize="24sp" />
+    </LinearLayout>
+
+
+     <LinearLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         android:layout_gravity="left">
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textSize="20sp"
+             android:layout_marginTop="20dp"
+             android:textColor="@color/black"
+             android:fontFamily="@font/aclonica"
+             android:text="Username:"/>
+         <EditText
+             android:id="@+id/user_username"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="20dp"
+             android:fontFamily="@font/aclonica"
+             android:text="bacbenchers.com"
+             android:textSize="20sp" />
+
+     </LinearLayout>
+
+        <LinearLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         android:layout_gravity="left">
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textSize="20sp"
+             android:layout_marginTop="20dp"
+             android:textColor="@color/black"
+             android:fontFamily="@font/aclonica"
+             android:text="Email:"/>
+
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/aclonica"
+        android:text="bacbenchers.com"
+        android:id="@+id/user_email"
+        android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         android:layout_gravity="left">
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textSize="20sp"
+             android:layout_marginTop="20dp"
+             android:textColor="@color/black"
+             android:fontFamily="@font/aclonica"
+             android:text="Phone:"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/aclonica"
+        android:text="bacbenchers.com"
+        android:id="@+id/user_phone"
+        android:textSize="20sp" />
+
+        </LinearLayout>
+        <LinearLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         android:layout_gravity="left">
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textSize="20sp"
+             android:layout_marginTop="20dp"
+             android:textColor="@color/black"
+             android:fontFamily="@font/aclonica"
+             android:text="Address:"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/aclonica"
+        android:text="bacbenchers.com"
+        android:id="@+id/user_city"
+        android:textSize="20sp" />
+        </LinearLayout>
+        <LinearLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         android:layout_gravity="left">
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textSize="20sp"
+             android:layout_marginTop="20dp"
+             android:textColor="@color/black"
+             android:fontFamily="@font/aclonica"
+             android:text="Password:"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/aclonica"
+        android:inputType="textPassword"
+        android:text="bacbenchers.com"
+        android:id="@+id/user_password"
+        android:textSize="20sp" />
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="left"
+        >
+
+        <Button
+            android:id="@+id/update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            android:backgroundTint="#59B631"
+            android:onClick="update"
+            android:text="Update"
+            android:textAllCaps="false" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            android:layout_marginLeft="40dp"
+            android:textAllCaps="false"
+            android:backgroundTint="#FF9800"
+            android:onClick="delete"
+            android:id="@+id/profile_delete"
+            android:text="Delete"
+            tools:ignore="UsingOnClickInXml" />
+
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:textAllCaps="false"
+        android:id="@+id/total_service"
+        android:backgroundTint="#E91E63"
+        android:text="Order History"
+        />
+
+</LinearLayout>
+
+
+
+</ScrollView>
